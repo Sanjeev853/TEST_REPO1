@@ -27,3 +27,6 @@ jobs:
     - name: Run tests
       run: npm run test
 
+    - name: Generate report
+      run: npm run report
+

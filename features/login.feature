@@ -19,3 +19,5 @@
 #     | Username | Password |   
 #     |TEST_USER | ABC123 |
 #     | standard_user  | secret_sauce | 
+
+#send grid key  GA4VAY2K3EANV9RPKW5CCF2J
