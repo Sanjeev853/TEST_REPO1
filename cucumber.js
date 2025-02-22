@@ -5,7 +5,6 @@ const common =`
 
 module.exports = {
     default : `${common} features/**/*.feature`,
-   // default : `${common}`,  
-   format: ["json:reports/cucumber_report.json"], // Generate report in Xray-compatible format
+    format: ["json:reports/cucumber_report.json"], // Generate report in Xray-compatible format
     publishQuiet: true, 
 }
