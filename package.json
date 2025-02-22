@@ -6,7 +6,8 @@
     "test": "npx cucumber-js --import cucumber.js --import Step_Definitions/**/*.step.js  -f json:cucumber_report.json --publish",
     "report": "node reporter.js",
     "upload-results": "node uploadResults.js",
-    "test-and-upload": "npm run test && npm run upload-results"
+    "test-and-upload": "npm run test && npm run upload-results",
+     "deploy": "vercel --prod"
   },
   "keywords": [],
   "author": "",
